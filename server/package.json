@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Rendezvous Restaurant Express server",
+  "homepage": "https://github.com/devzwide/rendezvous-restaurant#readme",
+  "bugs": {
+    "url": "https://github.com/devzwide/rendezvous-restaurant/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devzwide/rendezvous-restaurant.git"
+  },
+  "license": "MIT",
+  "author": "Bukeka Nxumalo",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
